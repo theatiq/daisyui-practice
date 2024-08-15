@@ -34,3 +34,61 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+PS D:\HTML CSS Tailwindcss\DaisyUI\daisyui-practice> npx create-next-app@latest .
+The directory daisyui-practice contains files that could conflict:
+
+  infor.docx
+
+Either try using a new directory name, or remove the files listed above.
+
+PS D:\HTML CSS Tailwindcss\DaisyUI\daisyui-practice> npx create-next-app@latest .
+√ Would you like to use TypeScript? ... No / Yes
+√ Would you like to use ESLint? ... No / Yes
+√ Would you like to use Tailwind CSS? ... No / Yes
+√ Would you like to use `src/` directory? ... No / Yes
+√ Would you like to use App Router? (recommended) ... No / Yes
+√ Would you like to customize the default import alias (@/*)? ... No / Yes
+Creating a new Next.js app in D:\HTML CSS Tailwindcss\DaisyUI\daisyui-practice.
+
+Using npm.
+
+Initializing project with template: app-tw
+
+
+Installing dependencies:
+- react
+- react-dom
+- next
+
+Installing devDependencies:
+- postcss
+- tailwindcss
+
+
+added 131 packages, and audited 132 packages in 2m
+
+31 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Initialized a git repository.
+
+Success! Created daisyui-practice at D:\HTML CSS Tailwindcss\DaisyUI\daisyui-practice
+
+PS D:\HTML CSS Tailwindcss\DaisyUI\daisyui-practice>  npm run dev
+
+ ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000 in the browser
+
+convert layout.js to layout.jsx
+
+install daisyui: npm i -D daisyui@latest
+tailwind confit:   plugins: [require('daisyui')],
+
+full configurationf from daisyui config
+
+
+
+
